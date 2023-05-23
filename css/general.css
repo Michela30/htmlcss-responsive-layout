@@ -31,3 +31,8 @@ COLOR
     text-align: center;
     padding-bottom: 0.625rem;
 }
+
+p{
+    font-size: small;
+    line-height: 1.25rem;
+}

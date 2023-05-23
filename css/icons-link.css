@@ -1,0 +1,36 @@
+/* 
+ICONS
+*/
+.fa-bars{
+    color: white;
+    padding-top: 0.3125rem;
+}
+
+.card-text i{
+    font-size: 3em;
+    color: var(--first-color);
+    padding-top: 15px;
+}
+/* 
+BUTTONS
+*/
+
+header #white-button a{
+    color: black;
+    background-color: white;
+    padding: 0.3125rem 0.5rem;
+    border-radius: 3.125rem;
+    font-size: 0.7em;
+    white-space: nowrap;
+}
+
+main .blue-button {
+    color: white;
+    background-color: var(--first-color);
+    padding: 0.3125rem 1.875rem;
+    border-radius: 3.125rem;
+    font-size: 0.8em;
+    text-decoration: none;
+    white-space: nowrap;
+}
+

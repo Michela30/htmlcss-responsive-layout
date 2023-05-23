@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(icons-link.css);
 @import url(general.css);
 
 
@@ -26,9 +27,14 @@ header{
     padding-left: 0.625rem;
 }
 
-.nav-bar-menu ul li a{
+.nav-bar-menu ul li a {
     color: white;
     text-decoration: none;
+    font-size: small;
+}
+
+.logo img{
+    width: 70%;
 }
 
 
@@ -58,6 +64,24 @@ main section:nth-of-type(even){
     width: calc(100% - 1.25rem);
     margin: 0.625rem 0.625rem;
     background-color: var(--first-color-light);
+    border-radius: 20px;
+}
+.card-content-left{
+    padding: 0.9375rem 0.9375rem;
+}
+.card-content-left >*{
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.card-content-right img{
+    width: 80%;
+}
+.card-content-right{
+    padding-left: 0.9375rem;
+}
+
+.card-text >*{
+    padding: 0.625rem;
 }
 
 .row{
@@ -92,7 +116,7 @@ main section:nth-of-type(even){
 
 .text-about-us, .img-about-us{
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     background-color: brown;
 }
 /* 
@@ -100,10 +124,12 @@ FOOTER
 */
 .footer-top{
     background-color: var(--main-color);
+    padding: 1.875rem;
 }
 
 .footer-bottom{
     background-color: var(--footer-color);
+    padding: 1.875rem;
 }
 
 
@@ -132,6 +158,13 @@ MEDIA QUERY da Mobile first
         width: calc(((100% / 3) *2) - 1.25rem);
     }
 
+    .card-text p{
+        line-height: 30px;
+    }
+
+    .card-content-right img{
+        width: 50%;
+    }
     .people-cards{
         display: flex;
     }
@@ -172,11 +205,15 @@ MEDIA QUERY da Mobile first
     }
     .nav-bar-menu{
         display: block;
+        padding-top: 5px;
     }
     
     /* MAIN */
     .card:first-child{
         display: flex;
+    }
+    .card-content-right img{
+        width: 100%;
     }
     .row{
         align-items: flex-end;
@@ -190,10 +227,10 @@ MEDIA QUERY da Mobile first
         margin: 0 0.9375rem 0.9375rem;
     }
     .text-about-us{
-        margin-left: 25px;
+        margin-left: 1.5625rem;
     }
     .img-about-us{
-        margin-right: 25px;
+        margin-right: 1.5625rem;
     }
 
     /* FOOTER */
