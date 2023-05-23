@@ -186,7 +186,9 @@ MEDIA QUERY da Mobile first
     .card-content-right img{
         width: 50%;
     }
-   
+    .column-text > h2{
+        font-size: 3em;
+    }
     .people-cards{
         display: flex;
     }
@@ -251,6 +253,9 @@ MEDIA QUERY da Mobile first
     }
     .column .column-text{
         margin-top: 30px;
+    }
+    .column-text > h2{
+        font-size: 1.5em;
     }
     .column-white{
         margin-top: 50px;

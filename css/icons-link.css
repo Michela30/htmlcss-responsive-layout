@@ -11,6 +11,13 @@ ICONS
     color: var(--first-color);
     padding-top: 15px;
 }
+
+.fa-arrow-down{
+    background-color: var(--main-color);
+    padding: 15px;
+    border-radius: 50%;
+    color: black;
+}
 /* 
 BUTTONS
 */
