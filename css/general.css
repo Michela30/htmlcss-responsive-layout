@@ -36,3 +36,11 @@ p{
     font-size: small;
     line-height: 1.25rem;
 }
+
+.card h4{
+    color: var(--first-color);
+}
+
+.column-text {
+    color: white;
+}

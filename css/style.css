@@ -91,9 +91,30 @@ main section:nth-of-type(even){
 
 .column{
     width: 100%;
-    background-color: white;
     margin: 0.625rem;
 }
+
+.column-text > *{
+    padding: 1.25rem 0.625rem;
+}
+.column-text > p{
+    font-size: 0.7em;
+}
+.column img{
+    width: 100%;
+}
+.column-white > *{
+    padding: 1.25rem 0.625rem;
+}
+.column-white{
+    background-color: white;
+    border-radius: 3.125rem;
+    color: black;
+}
+.column:last-child{
+    margin-bottom: 2.5rem;
+}
+
 .people-cards{
     background-color: var(--main-color);
     margin: 0 0.9375rem 0.9375rem;
@@ -165,6 +186,7 @@ MEDIA QUERY da Mobile first
     .card-content-right img{
         width: 50%;
     }
+   
     .people-cards{
         display: flex;
     }
@@ -187,7 +209,7 @@ MEDIA QUERY da Mobile first
     }
 
     .text-about-us, .img-about-us{
-       margin: 15px;
+       margin: 0.9375rem;
     }
     /* FOOTER */
 }
@@ -217,11 +239,25 @@ MEDIA QUERY da Mobile first
     }
     .row{
         align-items: flex-end;
+        justify-content: center;
     }
     .column{
-        width: calc((100% / 2) - 1.25rem);
+        width: calc((80% / 2) - 1.25rem);
+        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
     }
-
+    .column img{
+        width: 80%;
+    }
+    .column .column-text{
+        margin-top: 30px;
+    }
+    .column-white{
+        margin-top: 50px;
+    }
+    .column-white > *{
+        padding: 0.625rem 0.3125rem;
+    }
     .col-6{
         width: calc((100% / 3) - 1.875rem);
         margin: 0 0.9375rem 0.9375rem;
