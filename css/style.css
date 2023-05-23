@@ -86,11 +86,25 @@ main section:nth-of-type(even){
     margin: 0 0.9375rem 0.9375rem;
 }
 
+.about-us{
+    margin: 0.9375rem 0.9375rem;
+}
+
+.text-about-us, .img-about-us{
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: brown;
+}
 /* 
 FOOTER
 */
+.footer-top{
+    background-color: var(--main-color);
+}
 
-
+.footer-bottom{
+    background-color: var(--footer-color);
+}
 
 
 
@@ -122,11 +136,11 @@ MEDIA QUERY da Mobile first
         display: flex;
     }
 
-    .people-cards .img-people{
+    .people-cards .img-people, .img-about-us{
         width: 40%;
     }
 
-    .people-cards .quotes-people{
+    .people-cards .quotes-people, .text-about-us{
         width: 60%;
     }
 
@@ -135,6 +149,13 @@ MEDIA QUERY da Mobile first
         margin: 0 0.9375rem 0.9375rem;
     }
     
+    .about-us{
+        display: flex;
+    }
+
+    .text-about-us, .img-about-us{
+       margin: 15px;
+    }
     /* FOOTER */
 }
 
@@ -168,6 +189,13 @@ MEDIA QUERY da Mobile first
         width: calc((100% / 3) - 1.875rem);
         margin: 0 0.9375rem 0.9375rem;
     }
+    .text-about-us{
+        margin-left: 25px;
+    }
+    .img-about-us{
+        margin-right: 25px;
+    }
+
     /* FOOTER */
 }
 
