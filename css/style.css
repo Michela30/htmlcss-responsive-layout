@@ -1,28 +1,23 @@
-/* RESET */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(general.css);
 
-/* GENERAL */
-
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container{
-    margin: 0 auto;
-    max-width: 1200px;
-}
 
 /* 
 HEADER
 */
 
+
+
+
+
+
 /* 
 MAIN
 */
+
+
+
+
+
 
 /* 
 FOOTER
@@ -32,21 +27,6 @@ FOOTER
 
 
 
-/* 
-MEDIA QUERY da Desktop first
-*/
-
-/* Tablet */
-
-@media screen and (max-width: 768px){
-
-}
-
-
-/* Mobile */
-@media screen and (max-width: 576px){
-    
-}
 
 
 
@@ -57,13 +37,21 @@ MEDIA QUERY da Mobile first
 /* Tablet */
 
 @media screen and (min-width: 768px){
+    /* HEADER */
 
+    /* MAIN */
+
+    /* FOOTER */
 }
 
 
 /* Desktop */
 @media screen and (min-width: 992px){
-    
+     /* HEADER */
+
+    /* MAIN */
+
+    /* FOOTER */
 }
 
 
