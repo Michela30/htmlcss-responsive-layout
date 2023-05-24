@@ -25,6 +25,7 @@ header{
     display: inline-block;
     list-style: none;
     padding-left: 0.625rem;
+    padding-right: 0.625rem;
 }
 
 .nav-bar-menu ul li a {
@@ -35,9 +36,11 @@ header{
 
 .logo img{
     width: 70%;
+    padding-left: 0.625rem;
 }
-
-
+.hamburger-menu{
+    padding-right: 5px;
+}
 
 
 /* 
@@ -72,6 +75,9 @@ main section:nth-of-type(even){
 .card-content-left >*{
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
+}
+.card-content-left > p{
+    padding-bottom: 1.25rem;
 }
 .card-content-right img{
     width: 80%;
@@ -114,12 +120,22 @@ main section:nth-of-type(even){
 .column:last-child{
     margin-bottom: 2.5rem;
 }
-
-.people-cards{
-    background-color: var(--main-color);
-    margin: 0 0.9375rem 0.9375rem;
+.column:first-child{
+    padding-top: 1.25rem;
 }
 
+.testimonials > *{
+    padding-top: 20px;
+}
+.people-cards{
+    background-color: var(--main-color);
+    margin: 0.9375rem 0.9375rem;
+}
+
+.img-people img{
+    width: 100%;
+    border-radius: 200px;
+}
 .benefits-row{
     display: flex;
     flex-wrap: wrap;
@@ -189,6 +205,9 @@ MEDIA QUERY da Mobile first
     .column-text > h2{
         font-size: 3em;
     }
+    .testimonials h3{
+        font-size: 1.8em;
+    }
     .people-cards{
         display: flex;
     }
@@ -243,25 +262,31 @@ MEDIA QUERY da Mobile first
         align-items: flex-end;
         justify-content: center;
     }
+    
     .column{
         width: calc((80% / 2) - 1.25rem);
-        margin-bottom: 2.5rem;
-        margin-top: 2.5rem;
+        margin-bottom: 3.5rem;
+        margin-top: 4.5rem;
     }
-    .column img{
+    .column:first-child img{
+        width: 100%;
+    }
+    .column-white img{
         width: 80%;
     }
     .column .column-text{
-        margin-top: 30px;
+        margin-top: 2.5rem;
     }
     .column-text > h2{
         font-size: 1.5em;
     }
-    .column-white{
-        margin-top: 50px;
-    }
+
     .column-white > *{
         padding: 0.625rem 0.3125rem;
+    }
+
+    .testimonials h3{
+        font-size: 2.2em;
     }
     .col-6{
         width: calc((100% / 3) - 1.875rem);

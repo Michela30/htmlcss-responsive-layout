@@ -40,6 +40,9 @@ p{
 .card h4{
     color: var(--first-color);
 }
+.testimonials h3{
+    color: var(--main-color);
+}
 
 .column-text {
     color: white;
