@@ -18,6 +18,14 @@ ICONS
     border-radius: 50%;
     color: black;
 }
+
+.quotes-people .fa-quote-left, .fa-quote-right {
+    vertical-align: super;
+}
+.img-container .fa-quote-left{
+   color: var(--main-color);
+   font-size: 4em;
+}
 /* 
 BUTTONS-LINK
 */

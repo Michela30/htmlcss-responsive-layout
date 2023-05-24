@@ -45,6 +45,9 @@ COLOR
     color: #333333;
 }
 
+/* 
+FONT
+*/
 
 .text-center{
     text-align: center;
@@ -73,5 +76,5 @@ p{
 }
 
 .about-us > h2{
-    font-size: 3em;
+    font-size: 2em;
 }
