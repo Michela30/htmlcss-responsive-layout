@@ -53,3 +53,13 @@ main .violet-button button {
 .benefit-text > a{
     text-decoration: none;
 }
+
+.get-started-button button {
+    color: var(--main-color);
+    background-color: white;
+    padding: .9375rem 3.75rem;
+    border-radius: 3.125rem;
+    white-space: nowrap;
+    border: none;
+    font-size: medium;
+}
