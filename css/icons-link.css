@@ -9,12 +9,12 @@ ICONS
 .card-text i{
     font-size: 3em;
     color: var(--first-color);
-    padding-top: 15px;
+    padding-top: .9375rem;
 }
 
 .fa-arrow-down{
     background-color: var(--main-color);
-    padding: 15px;
+    padding: .9375rem;
     border-radius: 50%;
     color: black;
 }

@@ -39,7 +39,7 @@ header{
     padding-left: 0.625rem;
 }
 .hamburger-menu{
-    padding-right: 5px;
+    padding-right: .3125rem;
 }
 
 
@@ -68,7 +68,7 @@ main section:nth-of-type(even){
     width: calc(100% - 1.25rem);
     margin: 0.625rem 0.625rem;
     background-color: var(--first-color-light);
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 .card-content-left{
     padding: 0.9375rem 0.9375rem;
@@ -123,12 +123,12 @@ main section:nth-of-type(even){
 }
 
 .testimonials > *{
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 .people-cards{
     background-color: var(--main-color);
     margin: 0.9375rem;
-    padding: 10px;
+    padding: .625rem;
     border-radius: 1.875rem;
 }
 .img-people{
@@ -197,13 +197,13 @@ main section:nth-of-type(even){
     border-radius: 50%;
 }
 .about-us >*{
-    padding-top: 25px;
+    padding-top: 1.5625rem;
 }
 .about-us-text > *{
-    padding: 25px 0;
+    padding: 1.5625rem 0;
 }
 .img-about-us{
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 
 /* 
@@ -267,7 +267,7 @@ MEDIA QUERY da Mobile first
     }
 
     .card-text p{
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 
     .card-content-right img{
@@ -394,7 +394,7 @@ MEDIA QUERY da Mobile first
         margin-left: 1.5625rem;
     }
     .img-about-us{
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
 }
 
