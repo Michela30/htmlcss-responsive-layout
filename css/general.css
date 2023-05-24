@@ -62,3 +62,10 @@ p{
 .column-text {
     color: white;
 }
+
+.benefit-text > h2{
+    font-size: 3em;
+}
+.benefit-text {
+    color: var(--main-color);
+}

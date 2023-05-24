@@ -41,3 +41,15 @@ main .blue-button {
     white-space: nowrap;
 }
 
+main .violet-button button {
+    color: white;
+    background-color: var(--main-color);
+    padding: .625rem 2.1875rem;
+    border-radius: 3.125rem;
+    white-space: nowrap;
+    border: none;
+}
+
+.benefit-text > a{
+    text-decoration: none;
+}

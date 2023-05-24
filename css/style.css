@@ -52,10 +52,10 @@ main section{
 
 }
 main section:nth-of-type(odd){
-    margin-bottom: 1.5625rem;
+    padding-bottom: 2.5rem;
 }
 main section:nth-of-type(even){
-    margin-bottom: 0.625rem;
+    padding-bottom: 1.5625rem;
     background-color: var(--main-color);
 }
 
@@ -75,7 +75,6 @@ main section:nth-of-type(even){
 }
 .card-content-left >*{
     padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
 }
 .card-content-left > p{
     padding-bottom: 1.25rem;
@@ -101,12 +100,12 @@ main section:nth-of-type(even){
     width: 100%;
     margin: 0.625rem;
 }
-
-.column-text > *{
-    padding: 1.25rem 0.625rem;
+.column .column-text{
+    margin-top: 2.5rem;
 }
 .column-text > p{
     font-size: 0.7em;
+    padding-top: 2.5rem;
 }
 .column img{
     width: 100%;
@@ -119,9 +118,7 @@ main section:nth-of-type(even){
     border-radius: 3.125rem;
     color: black;
 }
-.column:last-child{
-    margin-bottom: 2.5rem;
-}
+
 .column:first-child{
     padding-top: 1.25rem;
 }
@@ -154,6 +151,11 @@ main section:nth-of-type(even){
 .quotes-people >*{
     padding: .9375rem .625rem;
 }
+.benefit-title{
+    padding: 2.5rem 0;
+    color: white;
+    font-size: 1.5em;
+}
 .benefits-row{
     display: flex;
     flex-wrap: wrap;
@@ -163,8 +165,15 @@ main section:nth-of-type(even){
     width: 100%;
     background-color: white;
     margin: 0 0.9375rem 0.9375rem;
+    padding-bottom: 2.5rem;
+    border-radius: 1.875rem;
 }
-
+.benefit-text >* {
+    padding: .9375rem 2.1875rem;
+}
+.benefit-text > p{
+    padding-bottom: 2.25rem;
+}
 .about-us{
     margin: 0.9375rem 0.9375rem;
 }
@@ -308,7 +317,7 @@ MEDIA QUERY da Mobile first
         width: 80%;
     }
     .column .column-text{
-        margin-top: 2.5rem;
+        margin-top: 5.5rem;
     }
     .column-text > h2{
         font-size: 1.5em;
