@@ -8,11 +8,13 @@
 .container{
     margin: 0 auto;
     max-width: 1000px;
+    padding: 0 .625rem;
 }
 
 .small-container{
     margin: 0 auto;
     max-width: 800px;
+    padding: 0 .625rem;
 }
 
 /* 
@@ -26,6 +28,22 @@ COLOR
     --text-color: #FDC15F;
     --footer-color: #333333;
 }
+.first-color{
+    color: #0084FD;
+}
+.first-color-light{
+    color: #B5DDFF;
+}
+.main-color{
+    color: #9792E4;
+}
+.text-color{
+    color: #FDC15F;
+}
+.footer-color{
+    color: #333333;
+}
+
 
 .text-center{
     text-align: center;
@@ -39,9 +57,6 @@ p{
 
 .card h4{
     color: var(--first-color);
-}
-.testimonials h3{
-    color: var(--main-color);
 }
 
 .column-text {

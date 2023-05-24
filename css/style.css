@@ -49,6 +49,7 @@ MAIN
 
 main section{
     margin-top: 0.9375rem;
+
 }
 main section:nth-of-type(odd){
     margin-bottom: 1.5625rem;
@@ -81,6 +82,7 @@ main section:nth-of-type(even){
 }
 .card-content-right img{
     width: 80%;
+    display: block;
 }
 .card-content-right{
     padding-left: 0.9375rem;
@@ -130,11 +132,27 @@ main section:nth-of-type(even){
 .people-cards{
     background-color: var(--main-color);
     margin: 0.9375rem 0.9375rem;
+    border-radius: 1.875rem;
 }
-
+.img-people{
+    width: 9.375rem;
+    height: 9.375rem;
+    margin: 0 auto;
+    padding: .9375rem;
+}
 .img-people img{
-    width: 100%;
-    border-radius: 200px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block; 
+   border-radius: 50%;
+}
+.quotes-people{
+    text-align: center;
+    color: white;
+}
+.quotes-people >*{
+    padding: .9375rem .625rem;
 }
 .benefits-row{
     display: flex;
@@ -210,14 +228,20 @@ MEDIA QUERY da Mobile first
     }
     .people-cards{
         display: flex;
+        align-items: center;
     }
-
-    .people-cards .img-people, .img-about-us{
-        width: 40%;
+    .img-people{
+        margin: 0; 
+    }
+    .quotes-people{
+        text-align: left;
+    }
+    .img-about-us{
+        width: 30%;
     }
 
     .people-cards .quotes-people, .text-about-us{
-        width: 60%;
+        width: 70%;
     }
 
     .col-6{
@@ -236,7 +260,12 @@ MEDIA QUERY da Mobile first
 }
 
 
+
+
+
+
 /* Desktop */
+
 @media screen and (min-width: 992px){
      /* HEADER */
 
@@ -248,7 +277,7 @@ MEDIA QUERY da Mobile first
     }
     .nav-bar-menu{
         display: block;
-        padding-top: 5px;
+        padding-top: .3125rem;
     }
     
     /* MAIN */
@@ -256,7 +285,11 @@ MEDIA QUERY da Mobile first
         display: flex;
     }
     .card-content-right img{
-        width: 100%;
+        width: 80%;
+        padding-top: 2.5rem;
+    }
+    .card-text i{
+        padding-top: 1.875rem;
     }
     .row{
         align-items: flex-end;
